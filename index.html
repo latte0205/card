@@ -485,6 +485,18 @@
             border-color: var(--panel-border);
         }
 
+        .case-card.in-progress {
+            border-color: rgba(255, 179, 71, 0.35);
+        }
+        .case-card.in-progress .case-thumb {
+            color: var(--amber);
+            border-bottom-color: rgba(255, 179, 71, 0.35);
+        }
+        .case-tag.in-progress {
+            color: var(--amber);
+            border-color: rgba(255, 179, 71, 0.35);
+        }
+
         /* ---------- footer ---------- */
         .footer {
             text-align: center;
@@ -639,12 +651,12 @@
                         <p>個人品牌形象網站，展示技術作品與服務項目。</p>
                     </div>
                 </a>
-                <div class="case-card placeholder" style="animation-delay:.1s">
-                    <div class="case-thumb">COMING SOON</div>
+                <div class="case-card in-progress" style="animation-delay:.1s">
+                    <div class="case-thumb">GOLF SIM</div>
                     <div class="case-body">
-                        <span class="case-tag">即將推出</span>
-                        <h3>案例籌備中</h3>
-                        <p>更多合作案例即將上線，敬請期待。</p>
+                        <span class="case-tag in-progress">進行中</span>
+                        <h3>高爾夫模擬器預約系統</h3>
+                        <p>線上預約時段，系統依預約自動開關機模擬器設備，客人到店即可直接使用。</p>
                     </div>
                 </div>
                 <div class="case-card placeholder" style="animation-delay:.15s">
